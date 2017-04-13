@@ -7,7 +7,7 @@ categories: machine-learning
 
 # A Support Vector Machine in just a few Lines of Python Code
 
-*Content created by [webstudio Richter](http://bestinnovations.de/wordpress/a-perceptron-in-just-a-few-lines-of-python-code/) alias Mavicc on March 30. 2017.*
+*Content created by [webstudio Richter](http://MaviccPRP.github.io) alias Mavicc on March 30. 2017.*
 
 In the last tutorial we coded a perceptron using Stochastic Gradient Descent. The perceptron solved a linear seperable classification problem, by finding a hyperplane seperating the two classes.
 
@@ -210,7 +210,7 @@ plt.plot([-2,6],[6,0.5])
 
 
 
-![png](svm-primal_files/svm-primal_19_1.png)
+![png]({{ site.url }}/assets/svm-primal_files/svm-primal_19_1.png)
 
 
 ## Lets Start implementing Stochastic Gradient Descent 
@@ -287,7 +287,7 @@ svm_sgd_plot(X,y)
 ```
 
 
-![png](svm-primal_files/svm-primal_26_0.png)
+![png]({{ site.url }}/assets/svm-primal_files/svm-primal_26_0.png)
 
 
 The above graph shows that the SVM makes less misclassifications the more epochs it is running. In contrast to our perceptron we do not reach zero errors permanently, as the SVM updates its weight vector by the regularizer, even if the current samples is correctly classified. What looks like a bad deal, is the strengh of the SVM, as it always tries to maximize the margin between the two classes. 
@@ -374,5 +374,4 @@ ax.quiver(X,Y,U,V,scale=1, color='blue')
 
 
 
-![png](svm-primal_files/svm-primal_30_1.png)
-
+![png]({{ site.url }}/assets/svm-primal_files/svm-primal_30_1.png)

@@ -1,14 +1,13 @@
 ---
-id: 410
 title: CSS fixed fullscreen background
 date: 2014-04-04T15:19:45+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=410
 permalink: /css-fixed-fullscreen-background/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="//www.youtube.com/embed/3tgeofiWm_w" allowfullscreen="" frameborder="0"></iframe>
+
 <div id="watch-description-text">
   <p id="eow-description">
     In this tutorial we will build a fixed fullscreen background and a scrollable div container over it. In this context, we will discuss some situations, when and how to use the background-position, background-attachment and the background-size property of CSS.

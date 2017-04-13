@@ -1,14 +1,13 @@
 ---
-id: 276
-title: 'Position: relative und Position: absolute &#8211; CSS Positionierung'
+title: 'Position: relative und Position: absolute - CSS Positionierung'
 date: 2013-07-11T16:55:08+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=276
 permalink: /position-relative-und-position-absolute-css-positionierung/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe src="//www.youtube.com/embed/tuQ5tVl_z3k" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
 In diesem Tutorial erkläre ich die beiden Positionierungsinstrumente _position: absolute_ und _position: relative_. Mit beiden Methoden kann man das Design einer Webseite noch besser kontrollieren. In Kombination mit den Instrumenten &#8222;display&#8220; und &#8222;float&#8220; erhält man fast absolute Flexibilität über die Positionierung euere HTML-Elemente.
 
 Wie immer nutze ich für das Tutorial JSBin: <a title="JSBin" href="http://www.jsbin.com" target="_blank">http://www.jsbin.com</a>

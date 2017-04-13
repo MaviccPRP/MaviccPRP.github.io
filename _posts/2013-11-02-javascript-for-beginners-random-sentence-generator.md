@@ -1,10 +1,8 @@
 ---
-id: 332
-title: 'Random Sentence Generator &#8211; Javascript Tutorial'
+title: 'Random Sentence Generator - Javascript Tutorial'
 date: 2013-11-02T19:06:22+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=332
 permalink: /javascript-for-beginners-random-sentence-generator/
 categories:
   - General
@@ -70,6 +68,6 @@ It is impottant to add a white space after 'Klick mich', that concatination prop
 
 As you can see, the values of the array and the innerHTML just got concatinated here. This gives you millions of possibilities, so this javascript random sentence generator is very flexible and can easily adapt to your needs.
   
-I hope you enjoyed this little javascript tutorial. For a more fundamental introduction for javascript i can advise you the tut's from the </a><a title="codeacademy" href="http://www.codecademy.com/tracks/javascript" target="_blank">codeacademy</a>. We are looking forward for your comments.
+I hope you enjoyed this little javascript tutorial. For a more fundamental introduction for javascript i can advise you the tut's from the <a title="codeacademy" href="http://www.codecademy.com/tracks/javascript" target="_blank">codeacademy</a>. We are looking forward for your comments.
 
 Your web.studio Richter

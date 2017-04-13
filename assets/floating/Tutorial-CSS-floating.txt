@@ -1,0 +1,83 @@
+Tutorial:
+‚float‘ und ‚clear‘ – Richtig positionieren mit CSS
+Eines der größten Hürden für den Einstieg in CSS ist sicherlich die Positionierung. Diese ist in CSS nicht immer ganz intuitiv und erfordert einen nicht zu unterschätzenden Lernaufwand. Mit diesem kleinen Tutorial möchte ich die CSS Befehle ‚float‘ und ‚clear‘ näher erläutern und zeigen wie man mit diesen Werkzeugen richtig umgeht.
+Das HTML-Grundgerüst
+Zunächst bauen wir eine kleine HTML-Seite, in der es einen Hauptcontainer gibt, der wiederum vier DIV-Container enthält. Dabei könnte man sich vorstellen, dass der Hauptcontainer der Hintergrund ist und die vier DIV-Containern Textbeiträge oder Bilder enthalten. Doch beginnen wir mit dem Codieren:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>JS Bin</title>
+</head>
+<body>
+  	<div id=”haupt”>
+   		 <div class="box"></div>
+  		  <div class="box"></div>
+   	 	<div class="box"></div>
+   		 <div class="box"></div>
+    	 </div>
+</body>
+</html>
+
+Dem Hauptcontainer übergeben wir ein ID-Attribut ‚#haupt‘, den DIV-Containern jeweils das Klassenattribut ‚.box‘. Damit ist das Grundgerüst auch schon fertiggestellt. Kommen wir zum CSS. Zuerst geben wir den Boxen ein einfaches Styling:
+
+#haupt {background-color: grey; width: 500px;}
+.box {background-color: lightgrey; height: 150px; width: 180px; margin: 10px;}
+Den Hauptcontainer wird hier die Hintergrundfarbe Grau übergegeben, außerdem erhält er eine Breite von 500px. 
+Die DIV-Container mit dem Klassenattribut ‚box‘ bekommen ein etwas helleres Grau, zudem eine Höhe von 150px und eine Weite von 180px zugewiesen. Damit die Container visuell voneinander getrennt sind, weisen wir den DIV-Containern noch einen Rand von 10px zu. Wir erhalten schließlich folgendes Webdesign:
+
+Da wir dem Hauptcontainer keine Höhe zugewiesen haben, passt er sich der Höhe den DIV-Containern an und erhält eine Höhe von 4x150px + den Werten für das ‚margin‘.
+Da es sich beim DIV-Element um ein Block-Element handelt, werden die DIV-Container untereinander dargestellt, wie sie im HTML Dokument eingetragen sind. Jeder DIV-Container eröffnet einen neuen Absatz. 
+DIV-Container mit ‚float‘ anordnen
+Nun wollen wir aber mehr Kontrolle über die DIV-Container erlangen und sie z.B. innerhalb des Hauptcontainers nebeneinander anordnen. D.h. bei einer Breite des Hauptcontainers von 500px würden zwei DIV-Container jeweils nebeneinander passen. Wir wollen etwa folgendes Design erstellen:
+
+
+Nun kommen wir zum ‚float‘ Befehl. Wenn wir dieses den DIV-Containern zuweisen, werden Sie sich solange nebeneinander in einem Absatz positionieren,  wie der Absatz breit ist (in unserem Fall 500px). Wir fügen in unserem  CSS-Code also den ‚float‘ Befehl den DIV-Container zu und erhalten:
+.box {background-color: lightgrey; height: 150px; width: 180px; margin: 10px; float: left}
+Wenn wir uns jetzt das Design anschauen müssen wir jedoch feststellen, dass der Hauptcontainer wie vom Erdboden verschluckt ist:
+
+Was ist passiert? Durch den ‚float‘ Befehl wird der Hauptcontainer, in dem sich die ‚gefloateten‘ DIV-Container befinden, sozusagen ignoriert. Seine Höhe, die wir ja nicht festgelegt haben ist praktisch Null. Seine Breite ist hingegen noch definiert, da sich die Boxen weiterhin an der 500px Breite orientieren. Wie kann man den Hauptcontainer allerdings wieder sichtbar machen? 
+Let’s ‚clear‘ the ‚float‘
+Dazu müssen wir zunächst zu unserem HTML-Code zurückkehren und folgenden DIV-Container hinzufügen:
+     	
+<div id=”haupt”>
+   		 <div class="box"></div>
+  		  <div class="box"></div>
+   	 	 <div class="box"></div>
+   		 <div class="box"></div> 
+       <div id="clear"></div>
+  </div>
+Wir haben jetzt hinter die vier DIV-Container einen weiteren DIV-Container gestellt. Aber keine Angst, dieser wird später nicht im Seitendesign auftauchen. Er hilft uns lediglich dabei, unseren Hauptcontainer wieder sichtbar zu machen, der durch das ‚float‘ scheinbar verschwunden ist.
+Dem neuen DIV-Container haben wir ein ID-Attribut ‚clear‘ hinzugefügt. Diese Bezeichnung ist allerdings frei gewählt und soll uns lediglich die Möglichkeit geben, den Container einzeln im CSS Dokument anzusprechen. Dieses Dokument erweitern wir nun um folgende Zeilen:
+#clear {clear: both; height: 0 width: 0; margin: 0;}
+Wir setzen alle Dimensionsmaße auf Null, da wir ja den DIV-Container scheinbar unsichtbar machen wollen. Entscheidend ist nun folgender Eintrag: ‚clear: both‘. Hiermit wird der ‚float‘-Befehl praktisch neutralisiert. Der Hauptcontainer wird wieder angezeigt, da seine Höhe nun wieder durch die DIV-Container definiert wird, ohne dass man jedoch den fünften DIV-Container sehen kann.
+
+Herzlichen Glückwunsch, nun haben wir mit ‚float‘ einen Hauptcontainer erstellt, der nebeneinander angeordnete DIV-Container enthält. 
+‚float‘ mit clearfix auflösen
+Als Webworker wird einem allerdings von Anfang an eingebläut, dass man unnötiges Markup im HTML.-Dokument vermeiden sollte und Struktur und Layout stets trennen sollte. Diese „Good-Practices“ sind berechtigt, werden allerdings beide von der vorgenannten Lösung verletzt. Doch es gibt Abhilfe: Die ‚clearfix‘ Lösung. Hierbei macht man es sich zunutze, das es in CSS die Möglichkeit gibt mit den ‚:before‘ und ‚:after‘ Werkzeugen, HTML-Elemente aus dem CSS Dokument heraus zu emulieren. Doch hierzu ein kleines Beispiel:
+Nach dem Einfügen folgender Zeilen in das CSS-Dokument,
+.box:after{content: "Hallo Welt";}
+erhalten wir
+
+Wie man sehen kann, wurde folgend, auf jeden DIV-Container, ein Inline-Element mit dem Text ‚Hallo Welt‘ eingefügt. Das können wir nun nutzen, um einen DIV-Container zu erstellen, wie wir ihn vorhin für das ‚clear: both‘ Werkzeug genutzt haben, um den ‚float‘ Befehl zu neutralisieren. Dazu erstellen wir folgenden CSS-Code:
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+Für den Selektor ‚.clearfix‘ haben wir folgende Regeln festgelegt: Erstelle nach dem Element mit dem Klassenattribut ‚clearfix‘ (dieser Name ist frei wählbar) Content mit dem Inhalt ‚.‘ (auch dieser Content ist frei wählbar), definiere dieses Element als Blockelement (wie ein DIV-Container) und verstecke seinen Inhalt (in diesem Fall den Punkt). Darüber hinaus nutzen wir das uns schon bekannte ‚clear: both‘ Werkzeug, um das ‚float‘ der DIV-Container zu neutralisieren und dem Hauptcontainer eine Höhe zuzuweisen. Jetzt müssen wir unserem Hauptcontainer noch diese Klasse zuweisen:
+  	
+<div id=”haupt” class=“clearfix“>
+   		 <div class="box"></div>
+  		  <div class="box"></div>
+   	 	<div class="box"></div>
+   		 <div class="box"></div> 
+      <div id="clear"></div>
+    	 </div>
+
+Schauen wir nun auf unser Seitendesign erhalten wir exakt das gleiche Ergebnis, wie zuvor mit dem DIV-Container ‚.clear'.
+
+Und dieses Ergebnis gelingt uns ganz ohne zusätzliches Markup in unserem HTML-Dokument.
+Das war es auch schon. Ich hoffe das ‚float‘ und ‚clear‘ kein Buch mit sieben Siegeln mehr für euch darstellt und ihr in Zukunft eure HTML-Elemente besser im Griff habt, wenn es um das Thema Positionierung geht. Ich empfehle euch noch sehr ein Videotutorial (in emglish) der phpacademy, das diesen Themenbereich noch einmal intensiver beleuchtet. http://www.youtube.com/watch?v=rI-pc-MHNyk.
+Viel Spaß bem Codieren!

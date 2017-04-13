@@ -1,14 +1,13 @@
 ---
-id: 454
 title: CSS HSLA background-color
 date: 2015-04-15T14:02:07+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=454
 permalink: /css-hsla-background-color/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ANALeZDtOv8" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 More flexibility with hsla colors. In this tutorial I will show u a neat way to code colors in CSS. Forget #f6f6f6 or #a2b5c4. To get a fitting and harmonic color schema, HSLA is your tool. With HSLA you will get full control over your colors and you are able to set up color schematas like a pro.
 
 As always I use the cool JSBin for demonstrating CSS.

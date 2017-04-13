@@ -1,14 +1,13 @@
 ---
-id: 262
-title: 'CSS-Dropdown Menü &#8211; Quick Tipp'
+title: 'CSS-Dropdown Menü - Quick Tipp'
 date: 2013-07-02T13:56:09+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=262
 permalink: /dropdown-menu-mit-css-erstellen/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe src="//www.youtube.com/embed/wKP1O1tyVvA" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
 In diesem Quick-Tutorial erstellen wir nur mit CSS-Dropdown Menü. Dabei verzichten wir auf die Verwendung von Javascript/JQuery und erreichen fast die gleiche Funktionalität nur mit CSS.
   
 Das Video baut auf dem CSS/JQuery Tutorial auf, dass ihr hier aufrufen könnt:

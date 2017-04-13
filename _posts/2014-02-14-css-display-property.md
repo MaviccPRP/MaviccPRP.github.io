@@ -1,15 +1,12 @@
 ---
-id: 401
 title: The CSS display property
 date: 2014-02-14T17:59:22+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=401
 permalink: /css-display-property/
-categories:
-  - CSS
+categories: CSS
 ---
-
+<iframe width="560" height="315" src="//www.youtube.com/embed/G8sLEp20Zf4" allowfullscreen="" frameborder="0"></iframe>
   
 This is a tutorial about the display property of CSS. Every HTML element is a rectangular. But there are several differences in their behavior on the page. While we have got block elements like the <p> text block element, the <div> container, the <h1>-<h4> headings or the <ul> list element, HTML comes as well with inline elements like the <span> tag, the <em> or <b> text element or the <img> image element.
 

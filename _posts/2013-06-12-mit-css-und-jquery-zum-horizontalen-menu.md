@@ -1,14 +1,13 @@
 ---
-id: 176
-title: 'CSS und JQuery &#8211; Ein eigenes Dropdown-Menü'
+title: 'CSS und JQuery - Ein eigenes Dropdown-Menü'
 date: 2013-06-12T13:38:02+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=176
 permalink: /mit-css-und-jquery-zum-horizontalen-menu/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe src="http://www.youtube.com/embed/rOcjdZ3uBsg" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
 Heute folgt quasi eine Fortsetzung des CSS-Tutorials &#8222;horizontales Menü erstellen&#8220; von letzter Woche. Mithilfe von JQuery erweitern wir das horizontale Navigationsmenü mit einer Dropdown-Funktion. Dadurch wird es möglich Untermenüs in unser vorhandenes Menü einzufügen, die bei Bewegung der Maus über einen Navigationseintrag eingeblendet werden.
 
 <!--more-->

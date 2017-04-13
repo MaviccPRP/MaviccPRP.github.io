@@ -1,14 +1,13 @@
 ---
-id: 466
 title: CSS gradients
 date: 2015-10-01T19:39:54+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=466
 permalink: /css-gradients/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2CX7fctIeuM" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 In this tutorial we will have a look at CSS gradients. With the gradient functionality you can design colourful web pages with just a few lines of CSS. CSS gradients are generating an image, with gradient effects.
 
 Particularly we will have a look at the linear-gradient and the radial-gradient function. I will introduce the most important use cases, to enable you to start with CSS gradients on your own.

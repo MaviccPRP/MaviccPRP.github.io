@@ -1,14 +1,13 @@
 ---
-id: 435
 title: CSS Flexbox
 date: 2014-11-23T16:18:21+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=435
 permalink: /css-flexbox/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="//www.youtube.com/embed/ZZkxRPZTbps?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="" frameborder="0"></iframe>
+
 This tutorial explains the most important features of CSS Flexboxes. This is useful, especially, when you are dealing with responsive webdesign.
 
 In the first part of the tutorial I will show you, how to built a typically html template. It will contain a wrapper DIV and four DIV containers inside it. We will use good old CSS floating to keep them horizontally.

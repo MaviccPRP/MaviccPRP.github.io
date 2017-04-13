@@ -1,14 +1,14 @@
 ---
-id: 450
 title: CSS Viewport Units
 date: 2015-02-27T11:11:50+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=450
 permalink: /css-viewport-units/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ew4VO7Grzg4?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
+
 This tutorial is about a very useful CSS unit. The CSS viewport unit is giving you the possibility, to make your webpage responsive to the viewport of the device, it is viewed with.
 
 In this tutorial we are talking about two of these viewport units: vw, vh

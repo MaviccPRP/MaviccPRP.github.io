@@ -1,15 +1,13 @@
 ---
-id: 295
-title: 'HTML-Beispielseite mit CSS stylen &#8211; Ein Tutorial für Einsteiger'
+title: 'HTML-Beispielseite mit CSS stylen - Ein Tutorial für Einsteiger'
 date: 2013-08-26T10:39:37+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=295
 permalink: /html-beispielseite-mit-css-stylen-ein-anfangertutorial/
-categories:
-  - CSS
-  - HTML
+categories: [HTML, CSS]
 ---
+<iframe src="//www.youtube.com/embed/a7LKzIYAoCM" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
 Wir erstellen eine einfache HTML-Webseite und nähern uns den Themen HTML und CSS an. Wir setzen HTML5-Tags ein, bauen einen Header, eine Navigation, ein Hauptelement und einen Footer. Wir beginnen mit einem HTML Grundgerüst und stylen dieses dann mit CSS3. Das Tutorial richtet sich primär an Anfänger, die die Mechanismen von HTML und CSS verstehen wollen.
 
 Das Tutorial ist in drei fünf- bis achtminütige Clips unterteilt, so dass die neuen Informationen in leichtverdauliche Häppchen serviert werden. Die Beispielseite soll gezielt zum experimentieren einladen!
@@ -28,4 +26,4 @@ und unsere Homepage:
   
 [http://www.berlins-webdesigner.de](http://www.berlins-webdesigner.de "web.studio Richter")
 
-Ich freue mich über euere Kommentare und wenns gefallen hat, &#8222;liken&#8220; nicht vergessen 😉
+Ich freue mich über euere Kommentare und wenns gefallen hat, nicht vergessen 😉

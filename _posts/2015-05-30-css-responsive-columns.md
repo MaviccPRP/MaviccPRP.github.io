@@ -1,14 +1,13 @@
 ---
-id: 460
 title: CSS responsive columns
 date: 2015-05-30T23:28:49+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=460
 permalink: /css-responsive-columns/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2CX7fctIeuM" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 <div id="watch-description-text" class="watch-editable">
   <p id="eow-description">
     In this tutorial about creating responsive columns, we will talk about the CSS attribute &#8218;columns&#8216;. With that you can define columns on your contents, to give your users some kind of a newspaper experience.<br /> But with CSS columns you can even setup a responsive column design. The columns are changing its appearance according to the width of the screen, without setting up any media queries.

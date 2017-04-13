@@ -3,6 +3,7 @@ layout: post
 title:  "A Neural Network in just a few Lines of Python Code"
 date:   2017-04-13 08:32:02 +0200
 categories: machine-learning
+permalink: /a-perceptron-in-just-a-few-lines-of-python-code/
 ---
 
 # A Neural Network in just a few Lines of Python Code
@@ -14,7 +15,7 @@ That is, why I tried to follow the data processes inside a neural network step b
 
 Today we will extend our artifical neuron, our perceptron, from the first part of this machine learning series. To solve non-linear classification problems, we need to combine this neuron to a network of neurons.
 
-<img width="400" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_full.png" />
+<img width="500" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_full.png" />
 
 In the above picture you can see such a Multi Layer Perceptron (MLP) with one input layer, one hidden layer and one output layer. 
 
@@ -464,7 +465,7 @@ The backward pass takes the error and passes it backward through the whole netwo
 
 Let us visualize this step:
 
-<img width="500" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_backprop_1.png" />
+<img width="1000" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_backprop_1.png" />
 
 $$
 \frac{\delta E}{\delta w12} = \frac{\delta E}{\delta a_{o}} * \frac{\delta a_{o}}{\delta z_{o}} * \frac{\delta z_{o}}{\delta w}
@@ -695,7 +696,7 @@ $$
 
 Ok, lets visualize this:
 
-<img width="600" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_backprop_2.png" />
+<img width="1000" src="{{ site.url }}/assets/mlp_files/mlp_graph_latex_backprop_2.png" />
 
 The first step:
 

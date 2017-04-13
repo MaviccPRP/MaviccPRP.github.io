@@ -186,7 +186,7 @@ plt.plot([-2,6],[6,0.5])
 
 
 
-![png](perceptron_files/perceptron_21_1.png)
+![png]({{ site.url }}/assets/perceptron/perceptron_files/perceptron_21_1.png)
 
 
 ## Lets Start implementing Stochastic Gradient Descent 
@@ -260,7 +260,7 @@ print(perceptron_sgd_plot(X,y))
 
 
 
-![png](perceptron_files/perceptron_26_1.png)
+![png]({{ site.url }}/assets/perceptron_files/perceptron_26_1.png)
 
 
 This means, that the perceptron needed 14 epochs to classify all samples right (total error is zero). In other words, the algorithm needed to see the data set 14 times, to learn its structure. 
@@ -344,7 +344,7 @@ ax.quiver(X,Y,U,V,scale=1, color='blue')
 
 
 
-![png](perceptron_files/perceptron_28_1.png)
+![png]({{ site.url }}/assets/perceptron_files/perceptron_28_1.png)
 
 
 ### Final Thoughts 

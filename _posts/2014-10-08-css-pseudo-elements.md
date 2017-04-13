@@ -1,14 +1,13 @@
 ---
-id: 431
 title: CSS Pseudo-elements
 date: 2014-10-08T14:18:35+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=431
 permalink: /css-pseudo-elements/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="//www.youtube.com/embed/H0Bs1wXKmRE?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 In this short tutorial, we are talking about CSS pseudo-elements and will have a look at pseudo-classes, as well. As an example I will focus on the folowwing pseudo-elements:
   
 1. after and before

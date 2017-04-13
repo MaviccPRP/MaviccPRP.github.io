@@ -1,15 +1,12 @@
 ---
-id: 417
 title: Horizontal centering with CSS
 date: 2014-06-25T11:48:09+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=417
 permalink: /horizontal-centering-with-css/
-categories:
-  - CSS
+categories: CSS
 ---
-
+<iframe width="560" height="315" src="//www.youtube.com/embed/8H5H2cdDKhA" allowfullscreen="" frameborder="0"></iframe>
   
 In this tutorial we are learning the basics of **horizontal centering with CSS**. With some simple HTML scaffolding we will have a closer look at the most important CSS properties margin and text-align, to center DIV container, pictures and text.
 

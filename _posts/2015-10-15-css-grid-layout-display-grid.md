@@ -1,14 +1,13 @@
 ---
-id: 470
-title: 'CSS Grid Layout &#8211; display: grid'
+title: 'CSS Grid Layout - display: grid'
 date: 2015-10-15T09:26:49+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=470
 permalink: /css-grid-layout-display-grid/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m2KefvciVaA" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
+
 In this tutorial I will give you some insights into the future of CSS. With CSS Grid Layout &#8211; display: grid you will have more control over your layouts. You can forget the rather confusing float or inline-block systems of CSS. With display: grid design and structure is even better separated.
   
 This tutorial is not a complete guide to this new feature, but will give you the ability, to experiment with the grid layout and explore it on your own.

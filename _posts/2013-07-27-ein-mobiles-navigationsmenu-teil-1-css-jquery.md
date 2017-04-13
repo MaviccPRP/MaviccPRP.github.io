@@ -1,14 +1,13 @@
 ---
-id: 284
-title: 'Navigationsmenü für mobile Geräte &#8211; Teil 1 &#8211; CSS, JQuery'
+title: 'Navigationsmenü für mobile Geräte - Teil 1 &#8211; CSS, JQuery'
 date: 2013-07-27T21:25:44+00:00
 author: Phillip Richter
 layout: post
-guid: http://bestinnovations.de//?p=284
 permalink: /ein-mobiles-navigationsmenu-teil-1-css-jquery/
-categories:
-  - CSS
+categories: CSS
 ---
+<iframe src="//www.youtube.com/embed/nwDI2VslvHk" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
+
 In diesem Tutorial erstellen wir Schritt für Schritt ein mobiles und responsives Navigationsmenü. Dies realisieren wir mit HTML, CSS und einigen Zeilen JQuery.
 
 Das mobile Navigationsmenü passt sich automatisch der Bildschirmbreite an und ist somit insbesondere für Mobiltelefone und kleinere Tablet-PC&#8217;s geeignet. Durch die einfach gehaltenen CSS-Regeln und das kleine JQuery-Skript ist dieses Tutorial einfach und schnell in euer bestehendes Websiteprojekt integrierbar.
