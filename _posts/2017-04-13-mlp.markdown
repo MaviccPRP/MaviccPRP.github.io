@@ -7,7 +7,6 @@ permalink: /a-multilayer-perceptron-in-just-a-few-lines-of-python-code/
 redirect_from: "/wordpress/a-multilayer-perceptron-in-just-a-few-lines-of-python-code/"
 ---
 
-# A Neural Network in just a few Lines of Python Code
 ## Design a Feed Forward Neural Network with Backpropagation Step by Step with real Numbers
 
 For alot of people neural networks are kind of a black box. And alot of people feel uncomfortable with this situation. Me, too. 
