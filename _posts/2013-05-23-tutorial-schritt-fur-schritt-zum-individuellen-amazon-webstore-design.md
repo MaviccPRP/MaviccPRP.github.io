@@ -37,13 +37,13 @@ Für unsere Arbeit am Amazon Webstore Design sind hier besonders die Punkte ‚_
 Bevor wir eigene Layouts für den Amazon Webstore erstellen, müssen wir im Unterpunkt &#8218;_Motive und Designs_&#8218; zunächst ein Thema auswählen, das wir anschließend an unsere eigenen Bedürfnisse anpassen werden.
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motive.png"><img class=" wp-image-96 aligncenter" alt="Amazon Webstore Seller Central Motive" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motive.png" width="1456" height="786" srcset="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motive.png 1456w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Motive-300x161.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Motive-1024x552.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motive.png"><img class=" wp-image-96 aligncenter" alt="Amazon Webstore Seller Central Motive" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motive.png" /></a>
 </p>
 
 Auf dieser Seite können Sie nun vorkonfigurierte Themen von Amazon auswählen. Diese bestehen wiederum aus CSS-Dateien, Javascript und Bildern, die wir später modifizieren können. Auf der rechten Seite sind die verschiedenen Seiten des Amazon Webstore aufgelistet. Hier können Sie sich einen ersten Eindruck vom späteren Aussehen des Webstores machen. Über den Button oben rechts, ‚_Motiv anpassen_‘ können grundlegende Einstellungen vorgenommen werden, wie Schriftfarbe der Linktexte, Schriftart und Größe usw. Natürlich lässt sich das alles später auch manuell über die CSS-Dateien ändern.
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motiv-anpassen1.png"><img class=" wp-image-134 aligncenter" alt="Amazon Webstore Seller Central Motiv anpassen" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motiv-anpassen1.png" width="1456" height="786" srcset="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motiv-anpassen1.png 1456w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Motiv-anpassen1-300x161.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Motiv-anpassen1-1024x552.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motiv-anpassen1.png"><img class=" wp-image-134 aligncenter" alt="Amazon Webstore Seller Central Motiv anpassen" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Motiv-anpassen1.png" /></a>
 </p>
 
 Nachdem man das Thema gewählt hat, kann man über den Unterpunkt &#8218;_Merchandising und Layout_&#8218; noch die Funktionalität der Website anpassen. Hier stehen verschiedene sogenannte Widgets zur Verfügung mit denen man z.B. Suchfelder, Produktlisten, Editorials u.a. einfügen kann. Durch klicken auf den Reiter &#8218;_Layout_&#8218; oben rechts lässt sich festlegen, wie viele Spalten, wie auf der Website angezeigt werden sollen.
@@ -51,7 +51,7 @@ Nachdem man das Thema gewählt hat, kann man über den Unterpunkt &#8218;_Mercha
 Der zentrale Ort für das Codieren im Amazon Webstore ist der Unterpunkt ‚Dateien verwalten‘. Hier hat man Zugriff auf die zentralen Dateien des ausgewählten Grundmotivs. Nach dem Klicken auf diesen Unterpunkt erscheint folgendes Interface:
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Dateien-verwalten1.png"><img class=" wp-image-136 aligncenter" alt="Amazon Webstore Seller Central Dateien verwalten" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Dateien-verwalten1.png" width="1456" height="786" srcset="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Dateien-verwalten1.png 1456w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Dateien-verwalten1-300x161.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/Amazon-Seller-Central-Dateien-verwalten1-1024x552.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Dateien-verwalten1.png"><img class=" wp-image-136 aligncenter" alt="Amazon Webstore Seller Central Dateien verwalten" src="{{ site.url }}/assets/amazonwebstore/Amazon-Seller-Central-Dateien-verwalten1.png" /></a>
 </p>
 
 Auf der linken Seite ist die Ordnerstruktur dargestellt, im rechten Feld erscheinen die jeweiligen Dateien. Der Ordner &#8218;_Merchandising Files_&#8218; ist für eigene Dateien bestimmt, die für das individuelle Website-Design verantwortlich sind. Im Ordner &#8218;_Theme Files_&#8218; befinden sich die Dateien des jeweils ausgewählten Themes.
@@ -65,7 +65,7 @@ Jetzt jedoch genug der Theorie, lassen Sie uns anhand zweier Beispiele die Desig
 Die Standard-Navigationsleiste des Basic-Themes ist nicht sonderlich ansehnlich, weshalb es sich lohnt, hier Hand anzulegen. Als Beispiel erstellen wir eine simple blaue Navigation, mit einzelnen Boxen pro Kategorie und abgerundeten Ecken. Unser Ergebnis soll folgendermaßen aussehen:
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/Navigation_blue.png"><img class=" wp-image-99 aligncenter" alt="Amazon Webstore Navigation_blue" src="{{ site.url }}/assets/amazonwebstore/Navigation_blue.png" width="921" height="57" srcset="{{ site.url }}/assets/amazonwebstore/Navigation_blue.png 921w, http://bestinnovations.de/wp-content/uploads/2013/05/Navigation_blue-300x18.png 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/Navigation_blue.png"><img class=" wp-image-99 aligncenter" alt="Amazon Webstore Navigation_blue" src="{{ site.url }}/assets/amazonwebstore/Navigation_blue.png" width="921" height="57" /></a>
 </p>
 
 Zu Beginn müssen wir einige Änderungen an der &#8218;_widgets_master.css&#8216;_ des Basic-Themes vornehmen (Falls es hier eine bessere Möglichkeit gibt, bitte schreibt das in eure Kommentare). Mit dem Firebug-Tool kann man erkennen, dass ein Selektor für die Navigation ‚**_div.com-amazon-webstore-GlobalSiteNav-2 ul#globalNav_**‘ lautet. Diesen finden wir auch in der CSS-Datei.
@@ -98,7 +98,7 @@ Hier müssen wir nun die Zeilen für &#8218;_**background&#8216;**_ und &#8218;_
 
 Nun haben wir eine einfache weiße Navigationsleiste, die nur darauf wartet, von uns ein wenig Farbe verpasst zu bekommen.
 
-[<img class="alignnone  wp-image-100" alt="Amazon Webstore Navigation_white" src="{{ site.url }}/assets/amazonwebstore/Navigation_white.png" width="849" height="55" srcset="{{ site.url }}/assets/amazonwebstore/Navigation_white.png 849w, http://bestinnovations.de/wp-content/uploads/2013/05/Navigation_white-300x19.png 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />]({{ site.url }}/assets/amazonwebstore/Navigation_white.png)
+<img class="alignnone  wp-image-100" alt="Amazon Webstore Navigation_white" src="{{ site.url }}/assets/amazonwebstore/Navigation_white.png" width="849" height="55" />
 
 Die nächsten Schritte sind klassisches CSS-Coding. Am besten legt man sich zu Beginn eine eigene CSS-Datei an, wir nennen Sie in unserem Beispiel ‚_mycss.css_‘. Hier können wir der Navigationsleiste nun nach Herzenslust ein neues Design verpassen. Für unser blaues Menu könnte die CSS-Datei folgendermaßen aussehen:
 
@@ -125,17 +125,17 @@ Damit haben wir die Navigationsleiste auch schon angepasst. Ihr Amazon Webstore 
 Als zweites Beispiel wollen wir ein eigenes HTML-Widget erstellen, den wir mit einfachem Text füllen und per CSS eine Umrandung mit abgerundeten Ecken zuweisen. Dies soll in etwa folgendermaßen aussehen:
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/Textbox.png"><img class=" wp-image-101 aligncenter" alt="Amazon Webstore Textbox" src="{{ site.url }}/assets/amazonwebstore/Textbox.png" width="1030" height="363" srcset="{{ site.url }}/assets/amazonwebstore/Textbox.png 1030w, http://bestinnovations.de/wp-content/uploads/2013/05/Textbox-300x105.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/Textbox-1024x360.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/Textbox.png"><img class=" wp-image-101 aligncenter" alt="Amazon Webstore Textbox" src="{{ site.url }}/assets/amazonwebstore/Textbox.png" width="1030" height="363" /></a>
 </p>
 
 Zunächst begeben wir uns dazu in das Widget-Interface und wählen auf der linken Seite die Home-Seite aus. Nun ziehen wir mit gedrückter rechter Maustaste das HTML-Widget oben, auf einen beliebigen unteren Slot, z.B. E-1.
 
-[<img class="alignnone  wp-image-98" alt="Amazon Webstore HTML-Widget_ziehen" src="{{ site.url }}/assets/amazonwebstore/HTML-Widget_ziehen.png" width="1456" height="786" srcset="{{ site.url }}/assets/amazonwebstore/HTML-Widget_ziehen.png 1456w, http://bestinnovations.de/wp-content/uploads/2013/05/HTML-Widget_ziehen-300x161.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/HTML-Widget_ziehen-1024x552.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />]({{ site.url }}/assets/amazonwebstore/HTML-Widget_ziehen.png)
+<img class="alignnone  wp-image-98" alt="Amazon Webstore HTML-Widget_ziehen" src="{{ site.url }}/assets/amazonwebstore/HTML-Widget_ziehen.png" width="1456" height="786" />
 
 Im nächsten Schritt fügen wir einen beliebigen Inhalt in das HTML-Widget ein. In unserem Beispiel soll ein simpler Lorem Ipsum-Text ausreichen.<sup><br clear="all" /> </sup>
 
 <p style="text-align: center;">
-  <a href="{{ site.url }}/assets/amazonwebstore/HTML-Widget.png"><img class=" wp-image-97 aligncenter" alt="Amazon Webstore HTML-Widget" src="{{ site.url }}/assets/amazonwebstore/HTML-Widget.png" width="1456" height="786" srcset="{{ site.url }}/assets/amazonwebstore/HTML-Widget.png 1456w, http://bestinnovations.de/wp-content/uploads/2013/05/HTML-Widget-300x161.png 300w, http://bestinnovations.de/wp-content/uploads/2013/05/HTML-Widget-1024x552.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" /></a>
+  <a href="{{ site.url }}/assets/amazonwebstore/HTML-Widget.png"><img class=" wp-image-97 aligncenter" alt="Amazon Webstore HTML-Widget" src="{{ site.url }}/assets/amazonwebstore/HTML-Widget.png" width="1456" height="786" /></a>
 </p>
 
 Zum Stylen dieses HTML-Widgets setzt man seinen gewünschten HTML-Code einfach in ein DIV-Element und weißt diesem eine ID oder Klasse zu. In diesem Beispiel nennen verwenden wir die ID ‚_willkommen_‘. Die weiteren Schritte erklären sich von selber. Man bearbeitet nun die Datei ‚_mycss.css_‘ und fügt z.B. folgenden Code ein:
