@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /ein-mobiles-navigationsmenu-teil-1-css-jquery/
 categories: CSS
+redirect_from: "/wordpress/ein-mobiles-navigationsmenu-teil-1-css-jquery/"
 ---
 <iframe src="//www.youtube.com/embed/nwDI2VslvHk" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

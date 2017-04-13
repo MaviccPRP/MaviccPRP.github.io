@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /dropdown-menu-mit-css-erstellen/
 categories: CSS
+redirect_from: "/wordpress/dropdown-menu-mit-css-erstellen/"
 ---
 <iframe src="//www.youtube.com/embed/wKP1O1tyVvA" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

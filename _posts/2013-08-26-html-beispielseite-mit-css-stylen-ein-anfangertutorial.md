@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /html-beispielseite-mit-css-stylen-ein-anfangertutorial/
 categories: [HTML, CSS]
+redirect_from: "/wordpress/html-beispielseite-mit-css-stylen-ein-anfangertutorial/"
 ---
 <iframe src="//www.youtube.com/embed/a7LKzIYAoCM" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

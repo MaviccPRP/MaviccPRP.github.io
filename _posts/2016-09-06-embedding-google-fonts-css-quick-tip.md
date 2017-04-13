@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /embedding-google-fonts-css-quick-tip/
 categories: CSS
+redirect_from: "/wordpress/embedding-google-fonts-css-quick-tip/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S9UPESb5L3Q" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

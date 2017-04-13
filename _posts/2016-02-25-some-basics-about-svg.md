@@ -6,6 +6,7 @@ layout: post
 permalink: /some-basics-about-svg/
 categories:
   - HTML
+redirect_from: "/wordpress/some-basics-about-svg/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/igFCtVf9cKc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 

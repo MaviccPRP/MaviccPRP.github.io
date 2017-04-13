@@ -8,6 +8,7 @@ guid: http://bestinnovations.de//?p=212
 permalink: /float-und-clear-richtig-positionieren-mit-css/
 categories:
   - CSS
+redirect_from: "/wordpress/float-und-clear-richtig-positionieren-mit-css/"
 ---
 **Eines der größten Hürden für den Einstieg in CSS ist sicherlich die Positionierung. Diese ist in CSS nicht immer ganz intuitiv und erfordert einen nicht zu unterschätzenden Lernaufwand. Mit diesem kleinen Tutorial möchte ich die CSS Befehle _float_ und _clear_ näher erläutern und zeigen wie man mit diesen Werkzeugen richtig umgeht.**
   

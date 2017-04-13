@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /position-relative-und-position-absolute-css-positionierung/
 categories: CSS
+redirect_from: "/wordpress/position-relative-und-position-absolute-css-positionierung/"
 ---
 <iframe src="//www.youtube.com/embed/tuQ5tVl_z3k" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

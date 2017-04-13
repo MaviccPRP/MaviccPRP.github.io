@@ -6,6 +6,7 @@ layout: post
 permalink: /html-srcset-attribute/
 categories:
   - HTML
+redirect_from: "/wordpress/html-srcset-attribute/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F2HojOC3qaI" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-display-property/
 categories: CSS
+redirect_from: "/wordpress/css-display-property/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/G8sLEp20Zf4" allowfullscreen="" frameborder="0"></iframe>
   

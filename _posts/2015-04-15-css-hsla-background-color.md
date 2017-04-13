@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-hsla-background-color/
 categories: CSS
+redirect_from: "/wordpress/css-hsla-background-color/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ANALeZDtOv8" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

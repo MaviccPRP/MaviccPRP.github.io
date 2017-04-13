@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /einfaches-horizontales-menu-mit-css-erstellen-tutorial/
 categories: CSS
+redirect_from: "/wordpress/einfaches-horizontales-menu-mit-css-erstellen-tutorial/"
 ---
 <iframe src="http://www.youtube.com/embed/uSBGZKE9XzU?rel=0" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

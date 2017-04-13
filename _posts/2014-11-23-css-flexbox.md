@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-flexbox/
 categories: CSS
+redirect_from: "/wordpress/css-flexbox/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/ZZkxRPZTbps?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="" frameborder="0"></iframe>
 

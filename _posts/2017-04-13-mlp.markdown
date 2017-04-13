@@ -4,6 +4,7 @@ title:  "A Neural Network in just a few Lines of Python Code"
 date:   2017-04-13 08:32:02 +0200
 categories: machine-learning
 permalink: /a-multilayer-perceptron-in-just-a-few-lines-of-python-code/
+redirect_from: "/wordpress/a-multilayer-perceptron-in-just-a-few-lines-of-python-code/"
 ---
 
 # A Neural Network in just a few Lines of Python Code

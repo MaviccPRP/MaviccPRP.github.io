@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /mit-css-und-jquery-zum-horizontalen-menu/
 categories: CSS
+redirect_from: "/wordpress/mit-css-und-jquery-zum-horizontalen-menu/"
 ---
 <iframe src="http://www.youtube.com/embed/rOcjdZ3uBsg" height="315" width="560" allowfullscreen="" frameborder="0"></iframe>
 

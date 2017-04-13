@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-gradients/
 categories: CSS
+redirect_from: "/wordpress/css-gradients/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2CX7fctIeuM" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

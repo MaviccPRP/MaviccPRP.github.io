@@ -8,6 +8,7 @@ guid: http://bestinnovations.de//?p=303
 permalink: /epages-mit-css-zum-individuellen-webshop/
 categories:
   - CSS
+redirect_from: "/wordpress/epages-mit-css-zum-individuellen-webshop/"
 ---
 [<img class="size-full wp-image-327 alignleft" alt="epages-logo" src="{{ site.url }}/assets/e-pages/epages-logo.jpg" width="200" height="47" />]({{ site.url }}/assets/e-pages/epages-logo.jpg)
 

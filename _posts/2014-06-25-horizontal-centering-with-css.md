@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /horizontal-centering-with-css/
 categories: CSS
+redirect_from: "/wordpress/horizontal-centering-with-css/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/8H5H2cdDKhA" allowfullscreen="" frameborder="0"></iframe>
   

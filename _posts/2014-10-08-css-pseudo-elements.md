@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-pseudo-elements/
 categories: CSS
+redirect_from: "/wordpress/css-pseudo-elements/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/H0Bs1wXKmRE?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

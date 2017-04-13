@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-fixed-fullscreen-background/
 categories: CSS
+redirect_from: "/wordpress/css-fixed-fullscreen-background/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/3tgeofiWm_w" allowfullscreen="" frameborder="0"></iframe>
 

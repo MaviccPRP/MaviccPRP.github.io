@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-grid-layout-display-grid/
 categories: CSS
+redirect_from: "/wordpress/css-grid-layout-display-grid/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/m2KefvciVaA" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

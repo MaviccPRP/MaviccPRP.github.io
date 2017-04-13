@@ -8,6 +8,7 @@ guid: http://bestinnovations.de//?p=181
 permalink: /cool-free-social-media-icon-sets/
 categories:
   - General
+redirect_from: "/wordpress/cool-free-social-media-icon-sets/"
 ---
 Social Media Icon Sets are always usefull, as every website has its own design, thus needs its own social media icons. During my work on some website-projects, i created three free Social Media Icon Sets. They are containing icons for: Facebook, Google Plus, Twitter, Youtube, Pinterest, Linkedin, RSS-feeds and for email.The first set is based on a lovely rainy leave, which i took a picture of this sping. The second social media icon set imitates a rough stone or steel pattern. In contrast the last set has a basic shape, like it has been drawn with a pencil.
 

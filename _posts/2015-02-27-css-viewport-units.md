@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-viewport-units/
 categories: CSS
+redirect_from: "/wordpress/css-viewport-units/"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ew4VO7Grzg4?list=UURM8qmFdmBavmM34AMd32Xg" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 

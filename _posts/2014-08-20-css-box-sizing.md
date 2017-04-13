@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /css-box-sizing/
 categories: CSS
+redirect_from: "/wordpress/css-box-sizing/"
 ---
 <iframe width="560" height="315" src="//www.youtube.com/embed/sltgGU-Kobc" allowfullscreen="" frameborder="0"></iframe>
 
