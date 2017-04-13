@@ -11,7 +11,7 @@ redirect_from: "/wordpress/a-multilayer-perceptron-in-just-a-few-lines-of-python
 
 For alot of people neural networks are kind of a black box. And alot of people feel uncomfortable with this situation. Me, too. 
 
-That is, why I tried to follow the data processes inside a neural network step by step with real numbers. Thanks to the awesome tutorials of <a href="https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">Matt Mazur</a>, <a href="http://iamtrask.github.io/2015/07/27/python-network-part2/">I am Trask</a> and the <a href="http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html">Virtual Laboratory of Artificial Intelligence in Cracow</a> I got a good feeling of the functionality of feed forward neural networks with backpropagation. With their inspiration I created this tutorial and combined math and code, to comprehend each step smoothly.
+That is, why I tried to follow the data processes inside a neural network step by step with real numbers. Thanks to the awesome tutorials of <a href="https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/">Matt Mazur</a>, <a href="http://iamtrask.github.io/2015/07/27/python-network-part2/">I am Trask</a> and the <a href="http://galaxy.agh.edu.pl/~vlsi/AI/backp_t_en/backprop.html">Virtual Laboratory of Artificial Intelligence in Cracow</a> I got a good feeling of the functionality of feed forward neural networks with backpropagation. With their inspiration I created this tutorial and combined math and code to comprehend each step smoothly.
 
 Today we will extend our artifical neuron, our perceptron, from the first part of this machine learning series. To solve non-linear classification problems, we need to combine this neuron to a network of neurons.
 
@@ -94,7 +94,7 @@ The input values $x_0-x_2$ are now emited into the network.
 
 - Each neuron in the hidden layer $h_1-h_5$ gets the weighted sum of the input values as input $ z_{h_j} = \sum_{i=0}^3 x_i*w_{ji} $. 
 - Each neuron calculates an output by using an activation function $a_h = \sigma(z_h)$.
-- The same procedure is for the output layer neuron $O$. The output layer gets the weighted sum of the output values of the hidden layer $z_o = \sum_{i=1}^5 h_i*w_{1i}$.
+- The procedure is for the output layer neuron $O$ the same. The output layer gets the weighted sum of the output values of the hidden layer $z_o = \sum_{i=1}^5 h_i*w_{1i}$.
 - The output layer neuron calculates an output by using an activation function $a_o = \sigma(z_o)$. This is our final classification result.
 
 Typical activation functions for neural networks are sigmoid, ReLU or tanh. In our case we will use <a href="https://en.wikipedia.org/wiki/Sigmoid_function">sigmoid</a>.
@@ -231,9 +231,9 @@ w12 = np.ones((5, 1))
 
  
 
-For each forward pass, we will use the whole data set for calculations. This allows us, to represent the network calculations via matrix multiplications.
+For each forward pass we will use the whole data set for calculations. This allows us to represent the network calculations via matrix multiplications.
 
-*You will see, that the whole feed forward pass is all about matrix multiplications, so refresh your knowledge here, before you continue.*
+*You will see that the whole feed forward pass is all about matrix multiplications, so refresh your knowledge here before you continue.*
 
 ### Feed Forward Pass
 
@@ -453,7 +453,7 @@ print(a_o_error)
     </i>
 </div>
 
-Now the magic of neural networks begins. As we calculated the error for each sample now, we want to adjust the weights in all the layers to minimize this error. This procedure is called backpropagation.
+Now the magic of neural networks begins. As we calculated the error for each sample, now we want to adjust the weights in all the layers to minimize this error. This procedure is called backpropagation.
 
 *Note: The error for $x_1$ and $x_2$ is almost zero. The calculated values of $a_o$ are $0.987919$, which is close to the expected value $y_{x_1}=1$ and $y_{x_2}=1$.*
 
@@ -514,9 +514,9 @@ print(delta_a_o_error)
     </i>
 </div>
 
-The Derivates show us the slope (steepness) of the loss function at position x. If it is close to zero, the loss is small, higher values show a higher loss.
+The derivates show us the slope (steepness) of the loss function at position x. If it is close to zero, the loss is small, higher values show a higher loss.
 
-Our next step in the backward pass is from the output of the output neuron $a_o$ to the input of the output neuron $z_o$. Here we "cross the border" of the sigmoid activation function. So we need the derivate of the sigmoid function:
+Our next step in the backward pass goes from the output of the output neuron $a_o$ to the input of the output neuron $z_o$. Here we "cross the border" of the sigmoid activation function. So we need the derivate of the sigmoid function:
 
 $$
 \frac{\delta a_{o}}{\delta z_{o}} = a_{o} * (1 - a_{o})
@@ -1080,7 +1080,7 @@ a_o = \sigma(
 \end{pmatrix})
 $$
 
-Did we improve a bit in comparison to the first prediction? Next we compare the expected class $y$ with the predicted class $a_o$.
+Did we improve a bit in comparison to the first prediction? To find out we compare the expected class $y$ with the predicted class $a_o$.
 
 $a_o$ after first prediction =
 
@@ -1101,7 +1101,7 @@ $a_o$ after the second (with updated weights) prediction =
 |0|0|1|0|0.96660214|
 
 
-That is not very impressive, right? But that is a typical behaviour of neural networks, they need to do these update operations very, very often. With random initialized weight matrices, a learning rate $eta=3$ and 20000 epochs of feeding forward and backpropagation, we will already have a much better result of $a_o$:
+That is not very impressive, right? But that is a typical behaviour of neural networks. They need to do those update operations very, very often. With random initialized weight matrices, a learning rate $eta=3$ and 20000 epochs of feeding forward and backpropagation, we will already have a much better result of $a_o$:
 
 |$x_0$|$x_1$|$y_2$|$y$| $a_o$ |
 |-|||||
@@ -1112,6 +1112,6 @@ That is not very impressive, right? But that is a typical behaviour of neural ne
 
 Not bad, right?
 
-Congratulations! If you made it so far, a neural network is a bit less of a black box for you now. I hope you learnt something and could follow all this matrix multiplication. If you find any bugs in the code or other mistakes, just leave me a note in the comments.
+Congratulations! If you made it so far, a neural network is a bit less of a black box for you now. I hope you have learnt something and could follow all this matrix multiplication. If you find any bugs in the code or other mistakes, just leave me a note in the comments.
 
 Mavicc from web.studio
