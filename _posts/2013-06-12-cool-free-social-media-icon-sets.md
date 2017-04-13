@@ -13,24 +13,18 @@ redirect_from: "/wordpress/cool-free-social-media-icon-sets/"
 Social Media Icon Sets are always usefull, as every website has its own design, thus needs its own social media icons. During my work on some website-projects, i created three free Social Media Icon Sets. They are containing icons for: Facebook, Google Plus, Twitter, Youtube, Pinterest, Linkedin, RSS-feeds and for email.The first set is based on a lovely rainy leave, which i took a picture of this sping. The second social media icon set imitates a rough stone or steel pattern. In contrast the last set has a basic shape, like it has been drawn with a pencil.
 
 So here are some previews:
-<figure id="attachment_184" class="wp-caption alignnone">
-	<img class=" wp-image-184" title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave.png" width="1402" height="1348" srcset="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave.png 1402w, {{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave-300x288.png 300w, {{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave-1024x984.png 1024w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />
-<figcaption class="wp-caption-text">Eight rainy_leave-style icons for Social Media.
-</figcaption>
-</figure> 
+
+	<img class=" wp-image-184" title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave.png" width="1402" height="1348"  />
+
 
 &nbsp;
 
 <!--more-->
 
-<figure id="attachment_183" class="wp-caption alignnone">
+<img class=" wp-image-183   " title="free social media icon set industry style" alt="free social media icon set industry style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_industry.png" width="900" height="600" />
 
-<img class=" wp-image-183   " title="free social media icon set industry style" alt="free social media icon set industry style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_industry.png" width="900" height="600" srcset="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_industry.png 900w, {{ site.url }}/assets/socialmediaicons/Social_Media_Icons_industry-300x200.png 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />
-<figcaption class="wp-caption-text">Eight industry-style icons for Social Media.</figcaption></figure> <figure id="attachment_182" style="width: 900px" class="wp-caption alignnone">
+<img class=" wp-image-182   " title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_Gezeichnet.png" width="900" height="600"  />
 
-<img class=" wp-image-182   " title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_Gezeichnet.png" width="900" height="600" srcset="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_Gezeichnet.png 900w, {{ site.url }}/assets/socialmediaicons/Social_Media_Icons_Gezeichnet-300x200.png 300w" sizes="(max-width: 709px) 85vw, (max-width: 909px) 67vw, (max-width: 1362px) 62vw, 840px" />
-<figcaption class="wp-caption-text">Eight drawn-style icons for Social Media.</figcaption>
-</figure> 
 
 ## Download your free Social Media Icon Sets now!
 
