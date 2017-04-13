@@ -8,6 +8,7 @@ guid: http://bestinnovations.de//?p=87
 permalink: /tutorial-schritt-fur-schritt-zum-individuellen-amazon-webstore-design/
 categories:
   - CSS
+redirect_from: "/wordpress/tutorial-schritt-fur-schritt-zum-individuellen-amazon-webstore-design/"
 ---
 ## [<img class=" wp-image-139 alignleft" alt="Amazon_Webstore_Logo" src="{{ site.url }}/assets/amazonwebstore/Amazon_Webstore_Logo.jpg" width="137" height="137" />]({{ site.url }}/assets/amazonwebstore/Amazon_Webstore_Logo.jpg)Der Amazon Webstore &#8211; einfach zum eigenen Webshop
 

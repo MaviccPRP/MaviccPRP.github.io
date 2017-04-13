@@ -4,8 +4,8 @@ date: 2013-11-02T19:06:22+00:00
 author: Phillip Richter
 layout: post
 permalink: /javascript-for-beginners-random-sentence-generator/
-categories:
-  - General
+categories: General
+redirect_from: "/wordpress/javascript-for-beginners-random-sentence-generator/"
 ---
 Sometimes it is usefull to have  an area on your website, where there are a few linked sentences, which are randomly choosen from a stock of sentences. Typical examples of use could be a glossary or advertising slogans. For this purpose I created a small javascript code-snippet for a random sentence generator, with which you can realize this easily.
   

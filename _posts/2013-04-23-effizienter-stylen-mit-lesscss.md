@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /effizienter-stylen-mit-lesscss/
 categories: CSS
+redirect_from: "/wordpress/effizienter-stylen-mit-lesscss/"
 ---
 Mit CSS bekommt man als Webdesigner ein mächtiges Werkzeug an die Hand, dass es ermöglicht, Inhalte einer Webseite sowohl ästhetisch als auch benutzerfreundlich zu gestalten. Die Grundstruktur eines CSS Stylesheets ist simpel. Mithilfe von Selektoren können Elemente im HTML Dokument direkt angesprochen werden. Dabei entstehen hintereinander angeordnete Style-Vorschriften, die, gerade bei komplexeren Websites, oft sehr schnell unübersichtlich werden können. Gerade in Zeiten des responsiven Webdesigns, das oft mit mehreren CSS Stylesheets einhergeht, ist LESS CSS ein willkommener Workflow-Optimierer.<!--more-->
 

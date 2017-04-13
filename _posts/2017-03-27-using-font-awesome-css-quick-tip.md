@@ -6,6 +6,7 @@ author: Phillip Richter
 layout: post
 categories: CSS
 permalink: /using-font-awesome-css-quick-tip/
+redirect_from: "/wordpress/using-font-awesome-css-quick-tip/"
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ASAWCE8grJA" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

@@ -5,6 +5,7 @@ author: Phillip Richter
 layout: post
 permalink: /responsives-webdesign-wird-das-web-intelligent/
 categories: General
+redirect_from: "/wordpress/responsives-webdesign-wird-das-web-intelligent/"
 ---
 <figure id="attachment_10" style="width: 318px" class="wp-caption alignleft">
 <img class="size-medium wp-image-10 " alt="iphones_slider_resp" src="{{ site.url }}/assets/responsivetut/iphones_slider_resp-300x123.png" width="318" height="130" srcset="{{ site.url }}/assets/responsivetut/iphones_slider_resp-300x123.png 300w, {{ site.url }}/assets/responsivetut/iphones_slider_resp.png 800w" sizes="(max-width: 318px) 85vw, 318px" />
