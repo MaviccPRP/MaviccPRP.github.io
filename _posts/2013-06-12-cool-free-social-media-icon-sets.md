@@ -14,12 +14,7 @@ Social Media Icon Sets are always usefull, as every website has its own design, 
 
 So here are some previews:
 
-	<img class=" wp-image-184" title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave.png" width="1402" height="1348"  />
-
-
-&nbsp;
-
-<!--more-->
+<img class=" wp-image-184" title="free social media icon set rainy style" alt="free social media icon set rainy style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_rainy_leave.png" width="900" height="600"  />
 
 <img class=" wp-image-183   " title="free social media icon set industry style" alt="free social media icon set industry style" src="{{ site.url }}/assets/socialmediaicons/Social_Media_Icons_industry.png" width="900" height="600" />
 
