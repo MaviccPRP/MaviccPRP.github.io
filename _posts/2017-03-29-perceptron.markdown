@@ -4,6 +4,7 @@ title:  "A Perceptron in just a few Lines of Python Code"
 date:   2017-03-29 08:32:02 +0200
 categories: machine-learning
 permalink: /a-perceptron-in-just-a-few-lines-of-python-code/
+redirect_from: "/wordpress/a-perceptron-in-just-a-few-lines-of-python-code/"
 ---
 
 # A Perceptron in just a few Lines of Python Code
