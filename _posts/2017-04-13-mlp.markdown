@@ -5,6 +5,7 @@ date:   2017-04-13 08:32:02 +0200
 categories: machine-learning
 permalink: /a-multilayer-perceptron-in-just-a-few-lines-of-python-code/
 redirect_from: "/wordpress/a-multilayer-perceptron-in-just-a-few-lines-of-python-code/"
+comments: true
 ---
 
 ## Design a Feed Forward Neural Network with Backpropagation Step by Step with real Numbers
@@ -1115,3 +1116,4 @@ Not bad, right?
 Congratulations! If you made it so far, a neural network is a bit less of a black box for you now. I hope you have learnt something and could follow all this matrix multiplication. If you find any bugs in the code or other mistakes, just leave me a note in the comments.
 
 Mavicc from web.studio
+
