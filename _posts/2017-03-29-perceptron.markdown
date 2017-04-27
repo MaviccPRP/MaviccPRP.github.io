@@ -188,7 +188,7 @@ plt.plot([-2,6],[6,0.5])
 
 
 
-![png]({{ site.url }}/assets/perceptron/perceptron_files/perceptron_21_1.png)
+![png]({{ site.url }}/assets/perceptron_files/perceptron_21_1.png)
 
 
 ## Lets Start implementing Stochastic Gradient Descent 
